@@ -13,6 +13,7 @@ import multithread
 LABELS = open("coco.names").read().strip().split("\n")
 
 # load our YOLO object detector trained on COCO dataset (80 classes)
+# For tiny-weights, use model2-files along with weights given in README.md as Model2 link and put their names in the line 18.
 print("[INFO] loading YOLO from disk...")
 net = cv2.dnn.readNetFromDarknet("yolov3.cfg", "yolov3.weights")
 
