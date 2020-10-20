@@ -12,13 +12,7 @@
 
 * As weights files are large see the link below depending on choice.
 
-```
-PS:  You can use either tiny-weights(for less accuracy and more fps) or weights(for more accuracy and less fps) depending on your choice.
-```
-
-Model1:  [Click Here](https://pjreddie.com/media/files/yolov3.weights)
-
-Model2:  [Click Here](https://pjreddie.com/media/files/yolov3-tiny.weights)
+* Since weight files are large, you can directly download from [yolov3.weights - Model1](https://pjreddie.com/media/files/yolov3.weights) (for more accuracy and less fps) and [yolov3-tiny.weights - Model2](https://pjreddie.com/media/files/yolov3-tiny.weights) (for less accuracy and more fps).
 
 #### Execution:
 
@@ -29,19 +23,20 @@ Raspberry Pi 4 is operated using Rasbian OS which can be installed as our OS or 
 
 #### Limitations:
 
-* If you have executed the code then you can observe that the total execution and getting output takes more time(3-4 minutes). Also hardware gets heated up if you use continuously.
+* If you have executed the code then you can observe that the total execution and final output takes more time(3-4 minutes). Also hardware gets heated up if you use continuously.
 * To increase the throughput you can use tiny-weights and also use other models such as caffe ImageNet SSD model.
 
 
-```
-Project associates:
+#### Project associates:
 
+```
 1. HemanthNallamothu     
 2. TejPratap     
 3. VamsiKrishna      
 4. Yeshwant
 ```
 
+#### Note: 
 ```
-Note: There will be some major changes in this project which I'll put in another Repo. It's concept is to use an app along with a USB connected camera. Pit detection will also be added to the model.
+ There will be some major changes in this project which I'll put in another Repo. It's idea is to use an app for running the mode connected to either USB camera or phone camera. Pit detection will also be added to this model.
 ```
